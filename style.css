@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: padding-box;
+}
+
+.table {
+    display: table;
+    margin: 0 auto 74px auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.table__row {
+    display: table-row;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.table__row--head {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    background-color: #08beff;
+    box-shadow: 1px 0 6px 3px #ccc;
+}
+
+.table__cell {
+    display: table-cell;
+    padding: 10px;
+}
+
+.preloader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -64px;
+}
